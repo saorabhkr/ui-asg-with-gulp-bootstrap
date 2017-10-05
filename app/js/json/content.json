@@ -1,0 +1,162 @@
+{
+	"hotelsData": {
+		"title": "Hotels.com - <span>wake up happy</span>",
+		"topHeadingPart": "With over <em>140,000 hotels</em> worldwide, <em>priced matched guaranteed</em> and <em>1.2 million</em> reviews, why look elsewhere for your next hotel booking.",
+		"seccondTopHeading": "Exclusive offers by email",
+		"signUpMsg": "Sign up Now!",
+		"contactUsText": "Call Us",
+		"constctUsNumber": "020 3 027 7819",
+		"contatcUsPunchLine": "We’re just a phone call away 24/7",
+		"socialFBMsg": "Like us on Facebook ",
+		"socialTWMsg": "Follow us on Twitter",
+		"destinationTag": "Top Destination",
+		"destinationDetails": [{
+			"individulaCityFrom": [
+				{	
+					"id" : 1,
+ 					"disCity": "London, United Kingdom </br> <em>over 898 hotels</em>",
+					"goingTo": [
+						{
+							"cname" : "The May Fair",
+							"cprice" : [{
+								"max": "£232",
+								"min": "£192"
+							}],
+							"cratings" : "4"
+						},
+						{
+							"cname" : "Grand Plaza Serviced Apartments",
+							"cprice" : [{
+								"max": "",
+								"min": "£78"	
+							}],
+							"cratings" : "2"
+						},
+						{
+							"cname" : "Lancaster Gate Hotel",
+							"cprice" : [{
+								"max": "£64",
+								"min": "£61"
+							}],
+							"cratings" : "5"
+						},
+						{
+							"cname" : "Radisson Edwardian Grafton Hotel",
+							"cprice" : [{
+								"max": "",
+								"min": "£102"
+							}],
+							"cratings" : "2"
+						},
+						{
+							"cname" : "The Rembrandt",
+							"cprice" : [{
+								"max": "£122",
+								"min": "£112"
+							}],
+							"cratings" : "3"
+						}			
+
+					],
+					"totalCount": "See all <em>898</em> hotels in London"
+				},
+				{
+					"id" : 2,	
+					"disCity": "New York, New York, United States</br> <em>over 575 hotels</em>",
+					"goingTo": [
+						{
+							"cname" : "The Waldorf Astoria",
+							"cprice" : [{
+								"max": "",
+								"min": "£154"
+							}],
+							"cratings" : "2"
+						},
+						{
+							"cname" : "Park Central New York Hotel",
+							"cprice" : [{
+								"max": "£121",
+							"min": "£89"	
+							}],
+							"cratings" : "5"
+						},
+						{
+							"cname" : "Hilton Garden Inn New York/West 35th Street",
+							"cprice" : [{
+								"max": "£74",
+							"min": "£74"
+							}],
+							"cratings" : "4"
+						},
+						{
+							"cname" : "Hilton New York",
+							"cprice" : [{
+								"max": "",
+							"min": "£147"
+							}],
+							"cratings" : "3"
+						},
+						{
+							"cname" : "Hotel Pennsylvania",
+							"cprice" : [{
+								"max": "",
+							"min": "£60"
+							}],
+							"cratings" : "4"
+						}			
+
+					],
+					"totalCount": "See all <em>575</em> hotels in New York"
+				},
+				{
+					"id" : 3,
+					"disCity": "Paris, France</br> <em>over 1721 hotels</em>",
+					"goingTo": [
+						{
+							"cname" : "Sofitel Paris Le Faubourg",
+							"cprice" : [{
+								"max": "",
+							"min": "£285"
+							}],
+							"cratings" : "5"
+						},
+						{
+							"cname" : "Pullman Paris Tour Eiffel",
+							"cprice" : [{
+								"max": "",
+							"min": "£168"	
+							}],
+							"cratings" : "4"
+						},
+						{
+							"cname" : "Champs Elysees Mac Mahon",
+							"cprice" : [{
+								"max": "",
+							"min": "£192"
+							}],
+							"cratings" : "3"
+						},
+						{
+							"cname" : "Hotel Regina",
+							"cprice" : [{
+								"max": "",
+							"min": "£159"
+							}],
+							"cratings" : "2"
+						},
+						{
+							"cname" : "Hotel Pershing Hall Paris",
+							"cprice" : [{
+								"max": "",
+							"min": "£60"
+							}],
+							"cratings" : "4"
+						}			
+
+					],
+					"totalCount": "See all <em>1721</em> hotels in Paris"
+				}
+			]
+		}]
+	}
+}

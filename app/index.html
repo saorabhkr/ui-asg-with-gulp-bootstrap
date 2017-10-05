@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Assignment done by Saorabh Kumar, +918390721599, saorabh.kr@gmail.com">
+    <meta name="author" content="">
+
+    <!-- Default Meta Tags -->
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+
+    <!-- These Info will help full while sharing something on Facebook/pintrest -->
+    <meta property="fb:app_id" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content=""/>
+    <!-- Twitter card-->
+    <meta name="twitter:widgets:csp" content=""/>
+    <meta name="twitter:card" content=""/>
+    <meta name="twitter:site" content=""/>
+    <meta name="twitter:app:name:iphone" content=""/>
+    <meta name="twitter:app:name:ipad" content=""/>
+    <meta name="twitter:app:name:googleplay" content=""/>
+    <meta name="twitter:app:id:iphone" content=""/>
+    <meta name="twitter:app:id:ipad" content=""/>
+    <meta name="twitter:app:id:googleplay" content=""/>
+
+    <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <link rel="icon" href="images/favicon.ico" type="image/png"/>
+
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--endbuild-->
+</head>
+
+<body>
+  <div id="top-city-wrapper"></div>
+
+  <!--build:js js/main.min.js -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/mustache.js"></script>
+    <script src="js/topCitiesUtil.js"></script>
+    <script src="js/topCitiesView.js"></script>
+    <script src="js/initPageView.js"></script>
+    <script src="js/main.js"></script>
+  <!-- endbuild -->
+
+  <script>
+    $(function () {
+      //Loading json data from laod module
+      //Exposing it in html thining that it can be replaced from backed.
+      loadTopCitiesPageData.init('js/json/content.json');
+    });
+  </script>
+</body>
+
+</html>

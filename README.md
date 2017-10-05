@@ -1,2 +1,7 @@
-# ui-asg-with-gulp-bootstrap
-A assignment which enables frontend automation using gulp.
+# Gulp 
+
+commoand to run 
+ - 'npm install'
+ - 'grunt' - To run the local server 
+ - 'grunt build' - To make a production build 
+

@@ -1,0 +1,75 @@
+
+
+<div id="top-city-inner-wrapper">
+    {{#data}}
+        <div class="hotel-basic-information container">
+            <h2 class="page-title">{{{title}}}</h2>    
+            <div class="t-punch-line">{{{topHeadingPart}}}</div>
+            <div class="top-destination-heading">
+                
+                <span class="red-border-title">{{destinationTag}}</span>
+                <span class="red-border"></span>
+            </div>
+        </div>
+        <div class="container">
+          <div class="accordion-option">
+            <a id="expandAll" href="#" class="btn btn-default" role="button">Expand All</a>
+            <a id="collapseAll" href="#" class="btn btn-default" role="button">Collapse All</a>
+          </div>
+          <div class="clearfix"></div>
+           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            {{#destinationDetails}}
+                {{#individulaCityFrom}}
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading-{{id}}">
+                        <h4 class="panel-title">
+                        <a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{id}}" aria-expanded="true" aria-controls="collapse-{{id}}">
+                          <span class="top-sprites dIB"></span>  
+                          {{{disCity}}}
+                        </a>
+                      </h4>
+                      </div>
+                      <div id="collapse-{{id}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-{{id}}">
+                        <div class="panel-body">
+                          <ul>
+                              <li>
+                                    {{#goingTo}}
+                                        <div class="individual-city">
+                                            <div class="city-name fLeft">{{cname}}</div>
+                                            <div class="city-more-info fRight">
+                                                <div class="rating-details fLeft">
+                                                    {{cratings}}
+                                                    <span class="top-sprites dIB star"></span>From &nbsp;
+                                                </div> 
+                                                <div class="peice-details fRight">
+                                                    {{#cprice}}
+                                                        <span class='sT'>{{max}}</span> <span class='gColor'>{{min}}</span>
+                                                    {{/cprice}}
+                                                </div>
+                                                 
+                                            </div>
+                                                                                           
+                                            
+                                        </div>
+                                    {{/goingTo}}
+                                    
+                              </li>
+                          </ul>
+                          
+                          <div class="total-indi-blk">
+                            
+                             <a href="/" alt="">{{{totalCount}}} <span class="top-sprites dIB right-arrow"></span></a>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {{/individulaCityFrom}}
+                {{/destinationDetails}}
+                </div>
+            </div>
+        
+    {{/data}}
+
+</div>
